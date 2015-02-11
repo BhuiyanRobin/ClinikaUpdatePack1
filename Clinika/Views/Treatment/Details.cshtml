@@ -1,0 +1,131 @@
+﻿@model Clinika.Models.Relations.Treatments
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Treatments</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ADiseases.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ADiseases.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ADose.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ADose.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AMeal.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AMeal.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AMedicine.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AMedicine.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VoterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VoterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirht)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirht)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ServiceGiven)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ServiceGiven)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoctorEntryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoctorEntryId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantityGiven)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantityGiven)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Note)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Note)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TreatmentsId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

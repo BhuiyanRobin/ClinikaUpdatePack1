@@ -1,0 +1,51 @@
+﻿@model Clinika.Models.DatabaseObject.AllocateMedicine
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AllocateMedicine</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AMedicine.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AMedicine.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AServiceCenter.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AServiceCenter.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DistrictUpazilaId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DistrictUpazilaId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

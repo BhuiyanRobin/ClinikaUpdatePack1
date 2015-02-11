@@ -1,0 +1,451 @@
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.MDiseases.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.allocateMedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.updateallocatemedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update1.resources
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.csprojResolveAssemblyReference.cache
+C:\Users\Bhuiyan Robin\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update2.resources
+J:\Morning\Final\Clinika\Clinika\bin\Clinika.dll.config
+J:\Morning\Final\Clinika\Clinika\bin\Clinika.dll
+J:\Morning\Final\Clinika\Clinika\bin\Clinika.pdb
+J:\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.dll
+J:\Morning\Final\Clinika\Clinika\bin\EntityFramework.dll
+J:\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+J:\Morning\Final\Clinika\Clinika\bin\itextsharp.dll
+J:\Morning\Final\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+J:\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.dll
+J:\Morning\Final\Clinika\Clinika\bin\RazorPDF.dll
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.dll
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.dll
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.dll
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.dll
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.dll
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+J:\Morning\Final\Clinika\Clinika\bin\WebGrease.dll
+J:\Morning\Final\Clinika\Clinika\bin\EntityFramework.xml
+J:\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+J:\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.xml
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.xml
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.xml
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.xml
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.xml
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.xml
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+J:\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+J:\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csprojResolveAssemblyReference.cache
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.MDiseases.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.allocateMedicine.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.updateallocatemedicine.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update1.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update2.resources
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.dll
+J:\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Clinika.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.MDiseases.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.allocateMedicine.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.updateallocatemedicine.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update1.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update2.resources
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\PC21\Desktop\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csprojResolveAssemblyReference.cache
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.allocateMedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.updateallocatemedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update1.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update2.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a4.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update3.resources
+C:\Users\Bhuiyan Robin\Desktop\SSSSSSSSSFINAL\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csprojResolveAssemblyReference.cache
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csprojResolveAssemblyReference.cache
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.allocateMedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.updateallocatemedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update1.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update2.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a4.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update3.resources
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\Final 3\Morning\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations._1.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Clinika.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.allocateMedicine.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.updateallocatemedicine.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update1.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update2.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a4.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update3.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations._1.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.medicine.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a5.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a6.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a7.resources
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\sanjay\Desktop\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.dd.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.allocateMedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.updateallocatemedicine.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update1.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update2.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a4.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.update3.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a5.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a6.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.Migrations.a7.resources
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\its\its\Final\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a1.resources
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a2.resources
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a3.resources
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a4.resources
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a5.resources
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a6.resources
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Clinika.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC21\Desktop\its\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\PC21\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\PC21\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\PC21\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\PC21\Desktop\its\Clinika\Clinika\obj\Debug\Clinika.csprojResolveAssemblyReference.cache
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Clinika.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\PC21\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Clinika.dll.config
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Antlr3.Runtime.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.SqlServer.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\itextsharp.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Newtonsoft.Json.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\RazorPDF.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Helpers.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Mvc.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Optimization.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\WebGrease.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\EntityFramework.SqlServer.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Newtonsoft.Json.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Helpers.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Mvc.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Optimization.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\bin\Antlr3.Runtime.pdb
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.dll
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.pdb
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.Migrations.a.resources
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.csproj.GenerateResource.Cache
+C:\Users\Bhuiyan Robin\Desktop\TEST\its\Clinika\Clinika\obj\Debug\Clinika.csprojResolveAssemblyReference.cache

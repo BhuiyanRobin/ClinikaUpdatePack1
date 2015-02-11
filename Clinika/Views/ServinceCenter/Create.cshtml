@@ -1,0 +1,136 @@
+﻿@model CliniKa.Models.DatabaseObject.ServiceCenter
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>ServiceCenter</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name)
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DistrictId, "DistrictId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("DistrictId", String.Empty)
+                @Html.ValidationMessageFor(model => model.DistrictId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UpazilaId, "UpazilaId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("UpazilaId", String.Empty)
+                @Html.ValidationMessageFor(model => model.UpazilaId)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div class="alert alert-warning alert-dismissible" role="alert" id="warning">
+                    <strong>Warning!</strong>Fill all information.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div class="alert alert-warning alert-dismissible" role="alert" id="Message">
+                    <strong>Warning!</strong>Already Exist.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" id="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+
+            $("#UpazilaId").prop("disabled", true);
+            $("#warning").hide();
+            $("#Message").hide();
+            $("#DistrictId").change(function () {
+                $("#UpazilaId").prop("disabled", false);
+                var optionSelected = $(this).find("option:selected");
+                var mydata = { DistrictId: optionSelected.val() };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("FindThisDistrict", "ServinceCenter")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify(mydata),
+                    dataType: "json",
+                    success: function (data) {
+                        $('#UpazilaId').empty();
+                        $.each(data, function (index, value) {
+                            $('#UpazilaId').append($('<option/>', {
+                                value: value.Id,
+                                text: value.Name
+                            }));
+                        });
+                    },
+
+                });
+
+            });
+           
+            $("#Create").click(function () {
+                $("#warning").hide();
+                $("#Message").hide();
+               var districtId = $("#DistrictId").val();
+                var upazilaId = $("#UpazilaId").val();
+                var serviceCenterName = $("#Name").val();
+                if (districtId == "" || upazilaId == "" || serviceCenterName == "") {
+                    $("#warning").show();
+                    return false;
+                }
+             
+                else {
+
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("InsertServiceCenter", "ServinceCenter")',
+                        contentType: "application/json;charset=utf-8",
+                        data: JSON.stringify({ districtId: districtId, upazilaId: upazilaId, serviceCenterName: serviceCenterName }),
+                        dataType: "json",
+                        success: function (data) {
+                            if (data == true) {
+                                $("#Message").show();
+                                return false;
+                            } else {
+                                location.window.reload("Create");
+                                return true;
+                            }
+                        },
+                    });
+                }
+                return false;
+            });
+        });
+    </script>
+}
+
+

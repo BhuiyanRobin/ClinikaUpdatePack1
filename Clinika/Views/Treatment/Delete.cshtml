@@ -1,0 +1,137 @@
+﻿@model Clinika.Models.Relations.Treatments
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Treatments</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ADiseases.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ADiseases.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ADose.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ADose.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AMeal.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AMeal.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AMedicine.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AMedicine.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VoterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VoterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirht)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirht)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ServiceGiven)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ServiceGiven)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoctorEntryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoctorEntryId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantityGiven)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantityGiven)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Note)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Note)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

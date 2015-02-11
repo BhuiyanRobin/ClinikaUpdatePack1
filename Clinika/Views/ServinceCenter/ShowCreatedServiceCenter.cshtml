@@ -1,0 +1,54 @@
+﻿@using CliniKa.Models.DatabaseObject
+@model CliniKa.Models.DatabaseObject.ServiceCenter
+@{
+    ServiceCenter aServiceCenter = ViewBag.ServiceCenter;
+    ViewBag.Title = "ShowCreatedServiceCenter";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SucessFully Servcie Center Created</h2>
+<div>
+    <h4>ServiceCenter</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ADistrict.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AUpazila.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AUpazila.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+    </dl>
+</div>
