@@ -4,7 +4,6 @@
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <h2>Create</h2>
 
 @using (Html.BeginForm())
@@ -163,7 +162,6 @@
             $("#show").click(function () {
 
                 var voterId = $("#VoterId").val();
-                alert(voterId);
                 $.ajax({
                     type: "POST",
                     url: '@Url.Action("GetVoterInformation", "Treatment")',
@@ -216,7 +214,6 @@
                 var patientsInfo = patient;
                 var observation = $("#Observation").val();
                 var doctorId = $("#doctor option:selected").val();
-                alert(day);
                 var treatmentRelation = { Observation: observation, DateOfObservation: day, DoctorId: doctorId };
                 $.ajax({
                     type: "POST",
@@ -228,6 +225,7 @@
 
                     },
                 });
+                window.location.reload();
             });
         });
 

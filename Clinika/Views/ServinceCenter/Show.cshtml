@@ -1,18 +1,17 @@
-﻿@using CliniKa.Models.DatabaseObject
-@model CliniKa.Models.DatabaseObject.ServiceCenter
+﻿@model CliniKa.Models.DatabaseObject.ServiceCenter
 @{
-    ServiceCenter aServiceCenter = ViewBag.ServiceCenter;
-    ViewBag.Title = "ShowCreatedServiceCenter";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Show";
+
 }
 
-<h2>SucessFully Servcie Center Created</h2>
+<h2>Initial created service center</h2>
+
 <div>
     <h4>ServiceCenter</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(
+            @Html.DisplayNameFor(model => model.ADistrict.Name)
         </dt>
 
         <dd>
@@ -46,9 +45,20 @@
         <dt>
             @Html.DisplayNameFor(model => model.Password)
         </dt>
+
         <dd>
             @Html.DisplayFor(model => model.Password)
         </dd>
 
     </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
 </div>

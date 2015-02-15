@@ -25,6 +25,8 @@ namespace Clinika.Models.DatabaseObject
 
         [DisplayName("Note")]
         public string Note { get; set; }
+
+        public string SevcieCenterCode { set; get; }
         public virtual Meal AMeal { set; get; }
         public virtual Dose ADose { get; set; }
         public virtual Medicine AMedicine { get; set; }

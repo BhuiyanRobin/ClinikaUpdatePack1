@@ -8,10 +8,10 @@
 <h2>Create</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Diseases</h4>
         <hr />
@@ -51,7 +51,22 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <div class="alert alert-warning alert-dismissible" role="alert" id="warning">
+                    <strong>Warning!</strong>Fill all information.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div class="alert alert-warning alert-dismissible" role="alert" id="Message">
+                    <strong>Warning!</strong>Already Exist.
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="button" value="Create" id="Create" class="btn btn-default" />
+                </div>
             </div>
         </div>
     </div>
@@ -62,5 +77,39 @@
 </div>
 
 @section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            $("#warning").hide();
+            $("#Message").hide();
+            $("#Create").click(function () {
+                $("#warning").hide();
+                $("#Message").hide();
+                var name = $("#Name").val();
+                var description = $("#Description").val();
+                var treatmentProcedure = $("#TreatmentProcedure").val();
+                var preferdMedicien = $("#PreferdMedicien").val();
+                var disease = { Name: name, Description: description, TreatmentProcedure: treatmentProcedure, PreferdMedicien: preferdMedicien };
+                if (name == "" || description == "" || treatmentProcedure == "" || preferdMedicien == "") {
+                    $("#warning").show();
+                } else {
+
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("InsertDiseaseName", "Disease")',
+                        contentType: "application/json;charset=utf-8",
+                        data: JSON.stringify(disease),
+                        dataType: "json",
+                        success: function (data) {
+                            if (data == true) {
+                                $("#Message").show();
+                            } else {
+                                window.location.reload();
+                            }
+                        },
+                    });
+                }
+            });
+        });
+
+    </script>
 }

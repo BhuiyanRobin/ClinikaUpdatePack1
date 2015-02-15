@@ -18,8 +18,6 @@ namespace Clinika.Models.DatabaseObject
         public string Name { set; get; }
         [DisplayName("Address")]
         public string Address { set; get; }
-
-        [DataType(DataType.Date)]
         public DateTime DateOfBirth { set; get; }
        
     }

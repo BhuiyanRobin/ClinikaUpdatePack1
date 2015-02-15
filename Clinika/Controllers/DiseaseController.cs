@@ -139,5 +139,23 @@ namespace Clinika.Controllers
                 return Json(true, JsonRequestBehavior.AllowGet);
             }
         }
+
+       
+        public ActionResult InsertDiseaseName(Diseases diseases)
+        {
+            Diseases aDiseases=new Diseases();
+            var nameAvailability = db.Diseaseses.Any(p => p.Name == diseases.Name);
+            if (nameAvailability==false)
+            {
+                aDiseases.Name = diseases.Name;
+                aDiseases.Description = diseases.Description;
+                aDiseases.TreatmentProcedure = diseases.TreatmentProcedure;
+                aDiseases.PreferdMedicien = diseases.PreferdMedicien;
+                db.Diseaseses.Add(aDiseases);
+                db.SaveChanges();
+                return Json(false, JsonRequestBehavior.AllowGet);
+            }
+            return Json(true, JsonRequestBehavior.AllowGet);
+        }
     }
 }

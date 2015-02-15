@@ -14,14 +14,10 @@ namespace Clinika.Controllers
     public class ServinceCenterController : Controller
     {
         private Gateway db = new Gateway();
-
+        ServiceCenter aCenter=new ServiceCenter();
         // GET: /ServinceCenter/
 
-        public ActionResult ShowCreatedServiceCenter()
-        {
-            return View();
-        }
-        public ActionResult Index()
+       public ActionResult Index()
         {
             var servicecenters = db.ServiceCenters.Include(s => s.ADistrict).Include(s => s.AUpazila);
             return View(servicecenters.ToList());
@@ -148,9 +144,12 @@ namespace Clinika.Controllers
             var centerName = db.ServiceCenters.FirstOrDefault(x => x.Name == serviceCenterName);
 
 
-            if (centerName == null)
+            if (centerName != null)
             {
-                ServiceCenter aServiceCenter=new ServiceCenter();
+                return Json(true, JsonRequestBehavior.AllowGet);
+            }
+           
+                ServiceCenter aServiceCenter = new ServiceCenter();
                 aServiceCenter.Name = serviceCenterName;
                 aServiceCenter.DistrictId = districtId;
                 aServiceCenter.UpazilaId = upazilaId;
@@ -158,13 +157,9 @@ namespace Clinika.Controllers
                 aServiceCenter.Password = PasswordGenaretor();
                 db.ServiceCenters.Add(aServiceCenter);
                 db.SaveChanges();
-                ViewBag.ServiceCenter = aServiceCenter;
+                aCenter = aServiceCenter;
                 return Json(false, JsonRequestBehavior.AllowGet);
-            }
-            else
-            {
-                return Json(true, JsonRequestBehavior.AllowGet);
-            }
+           
         }
 
         public ActionResult IsNameAvailable(string serviceCenterName)
@@ -215,6 +210,11 @@ namespace Clinika.Controllers
                     @t.prd.Name
                 })).ToList();
             return Json(upazilas, JsonRequestBehavior.AllowGet);
+        }
+
+        public ActionResult Show()
+        {
+            return View(aCenter);
         }
     }
 }

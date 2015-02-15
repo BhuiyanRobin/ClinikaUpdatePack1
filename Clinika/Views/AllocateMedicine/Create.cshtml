@@ -28,7 +28,7 @@
         <div class="form-group">
             <label class=" control-label col-md-2">Upazila</label>
             <div class="col-md-10">
-                <select id="Upazilas" required="Please select upazila">
+                <select id="Upazilas">
                     <option></option>
                     <option></option>
                 </select>
@@ -63,7 +63,7 @@
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Add" id="Add" class="btn btn-default" />
+                <input type="button" value="Add" id="Add" class="btn btn-default" />
             </div>
         </div>
         <div>
@@ -76,10 +76,16 @@
                 </thead>
             </table>
         </div>
-
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" id="Create" class="btn btn-default" />
+                <div class="alert alert-warning alert-dismissible" role="alert" id="warning">
+                    <strong>Warning!</strong>Fill all information.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" value="Save" id="save" class="btn btn-default" />
             </div>
         </div>
     </div>
@@ -89,7 +95,7 @@
 
     <script>
         $(document).ready(function () {
-
+            $("#warning").hide();
             $('#Districts').change(function () {
                 var optionSelected = $(this).find("option:selected");
                 var mydata = { districtId: optionSelected.val() };
@@ -134,8 +140,8 @@
             });
 
 
-            $("#Create").click(function () {
-                var mydata = Names;
+            $("#save").click(function () {
+                var mydata = names;
                 $.ajax({
                     type: "POST",
                     url: '@Url.Action("Chk", "AllocateMedicine")',
@@ -143,13 +149,13 @@
                     data: JSON.stringify(mydata),
                     dataType: "json",
                     success: function (data) {
-
+                        window.location.reload();
                     },
                 });
 
             });
 
-            var Names = new Array();
+            var names = new Array();
 
             $("#Add").click(function () {
 
@@ -160,15 +166,16 @@
                 var medicineId = $("#MedicineId").val();
                 var quantity = $("#Quantity").val();
                 var medicineName = $("#MedicineId option:selected").text();
-                alert(upazilaId + districtId + serviceCenterId + medicineId + quantity + medicineName);
-                $('#addMedicine').append("<tr><td> " + medicineName + "</td><td>" + quantity + "</td></tr>");
+                if (upazilaId == "" || districtId == "" || serviceCenterId == "" || quantity == "" || medicineName == "") {
+                    $("#warning").show();
+                } else {
+                    $('#addMedicine').append("<tr><td> " + medicineName + "</td><td>" + quantity + "</td></tr>");
 
-                var Name = { Quantity: quantity, UpazilaId: upazilaId, ServiceCenterId: serviceCenterId, MedicineId: medicineId, DistrictId: districtId };
-                Names.push(Name);
-                return false;
+                    var name = { Quantity: quantity, UpazilaId: upazilaId, ServiceCenterId: serviceCenterId, MedicineId: medicineId, DistrictId: districtId };
+                    names.push(name);
+                }
+               
             });
-
-
         });
     </script>
 }

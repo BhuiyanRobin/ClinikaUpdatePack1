@@ -57,7 +57,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" id="Create" class="btn btn-default" />
+                <input type="button" value="Create" id="Create" class="btn btn-default" />
                 <div class="alert alert-warning alert-dismissible" role="alert" id="Message">
                     <strong>Warning!</strong>Already Exist.
                 </div>
@@ -82,7 +82,6 @@
                 var power = $("#Power").val();
                 var powerUnit = $("#powerUnit").find("option:selected").text();
                 var medicine = { Name: name, Power: power, PowerUnit: powerUnit };
-                alert(medicine.Power);
                 if (medicine.Name == "" || medicine.Power == "" || medicine.PowerUnit == "Select Unit") {
                     $("#warning").show();
                 }
@@ -97,7 +96,7 @@
                         success: function (data) {
                             if (data == "") {
                                 $("#Message").hide();
-                                
+                                window.location.reload();
                             } else {
 
                                 $("#Message").show();
@@ -108,7 +107,6 @@
                     });
 
                 }
-                return false;
             });
         });
 

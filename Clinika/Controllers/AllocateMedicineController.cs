@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Clinika.Models.DatabaseObject;
+using CliniKa.Models.DatabaseObject;
 using Clinika.Models.Gateway;
 using Clinika.Models.Relations;
 using Microsoft.Ajax.Utilities;
@@ -42,8 +43,18 @@ namespace Clinika.Controllers
         // GET: /AllocateMedicine/Create
         public ActionResult Create()
         {
+            var medicines = db.Medicines;
+            List<Medicine>allMedicine=new List<Medicine>();
+            foreach (Medicine medicine in medicines)
+            {
+                Medicine aMedicine=new Medicine();
+                aMedicine.Name = medicine.Name + "-" + medicine.Power + medicine.PowerUnit;
+                aMedicine.MedicineId = medicine.MedicineId;
+                allMedicine.Add(aMedicine);
+
+            }
             ViewBag.Districts = new SelectList(db.Districts, "Id", "Name");
-            ViewBag.MedicineId = new SelectList(db.Medicines, "MedicineId", "Name");
+            ViewBag.MedicineId = new SelectList(allMedicine, "MedicineId", "Name");
             ViewBag.ServiceCenterId = new SelectList(db.ServiceCenters, "Id", "Name");
             return View();
         }

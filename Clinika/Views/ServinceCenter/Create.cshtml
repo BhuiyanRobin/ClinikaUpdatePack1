@@ -50,13 +50,13 @@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <div class="alert alert-warning alert-dismissible" role="alert" id="Message">
-                    <strong>Warning!</strong>Already Exist.
+                    <strong>Warning!</strong>This name is not available.Try for another one.
                 </div>
             </div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" id="Create" class="btn btn-default" />
+                <input type="button" value="Create" id="Create" class="btn btn-default" />
             </div>
         </div>
     </div>
@@ -96,18 +96,17 @@
                 });
 
             });
-           
+
             $("#Create").click(function () {
                 $("#warning").hide();
                 $("#Message").hide();
-               var districtId = $("#DistrictId").val();
+                var districtId = $("#DistrictId").val();
                 var upazilaId = $("#UpazilaId").val();
                 var serviceCenterName = $("#Name").val();
                 if (districtId == "" || upazilaId == "" || serviceCenterName == "") {
                     $("#warning").show();
-                    return false;
                 }
-             
+
                 else {
 
                     $.ajax({
@@ -119,15 +118,13 @@
                         success: function (data) {
                             if (data == true) {
                                 $("#Message").show();
-                                return false;
                             } else {
-                                location.window.reload("Create");
-                                return true;
+                                window.location.reload();
                             }
                         },
                     });
                 }
-                return false;
+
             });
         });
     </script>

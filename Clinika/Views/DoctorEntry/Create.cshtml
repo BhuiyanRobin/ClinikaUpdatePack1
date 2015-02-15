@@ -18,7 +18,7 @@
         @Html.ValidationSummary(true)
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2", required = "required" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Name)
                 @Html.ValidationMessageFor(model => model.Name)
@@ -40,7 +40,13 @@
                 @Html.ValidationMessageFor(model => model.Specialization)
             </div>
         </div>
-
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div class="alert alert-warning alert-dismissible" role="alert" id="warning">
+                    <strong>Warning!</strong>Fill all information.
+                </div>
+            </div>
+        </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Create" class="btn btn-default" />
@@ -54,5 +60,24 @@
 </div>
 
 @section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function() {
+
+            $("#Message").hide();
+            $("#warning").hide();
+
+            $("#Create").click(function () {
+                alert("come");
+                var name = $("#Name").val();
+                var power = $("#Power").val();
+                var powerUnit = $("#powerUnit").find("option:selected").text();
+                var medicine = { Name: name, Power: power, PowerUnit: powerUnit };
+                if (medicine.Name == "" || medicine.Power == "" || medicine.PowerUnit == "Select Unit") {
+                    $("#warning").show();
+                }
+            });
+            return false;
+        });
+
+    </script>
 }

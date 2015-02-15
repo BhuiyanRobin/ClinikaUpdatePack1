@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Show";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Show</h2>
+
+<div class="form-horizontal">
+    <div class="form-inline">
+        <label for="voterId">VoterId</label>
+        <input type="text" id="voterId" />
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <div>
+            <label for="address">Address</label>
+            <input type="text" id="address" />
+        </div>
+        <div>
+            <input type="button" id="show" value="show" />
+        </div>
+        <table class="table table-bordered">
+            <tr>
+                <td>Date</td>
+                <td>Center Name</td>
+                <td>Center Code</td>
+            </tr>
+        </table>
+        <table class="table table-bordered" id="showAll">
+            
+        </table>
+                
+</div>
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            
+            $("#show").click(function() {
+                $('#showAll').empty();
+                var voterId = $("#voterId").val();
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetVoterInformation", "ShowAllPatientHistory")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify({ voterId: voterId }),
+                    dataType: "json",
+                    success: function(data) {
+                        $("#name").val(data.Name);
+                        $("#address").val(data.Address);
+                        alert(voterId);
+                        $.ajax({
+                            type: "POST",
+                            url: '@Url.Action("GetPatientHistory", "ShowAllPatientHistory")',
+                            contentType: "application/json;charset=utf-8",
+                            data: JSON.stringify({ voterId: voterId }),
+                            dataType: "json",
+                            success: function (datas) {
+                                var i = 0;
+                                $.each(datas, function (index, value) {
+                                    i++;
+                                    $('#showAll').append("<tr><td> " + "History ::"+i + "</td><td>" + value.ServiceCenterName + "</td><td>" + value.ServcieCenterCode + "</td></tr>");
+                                });
+                                
+                            },
+                        });
+                    },
+                });
+            });
+        });
+    </script>
+}

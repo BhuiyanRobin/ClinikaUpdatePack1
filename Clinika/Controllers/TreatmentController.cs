@@ -178,6 +178,7 @@ namespace Clinika.Controllers
         public ActionResult TreatmentAPatientEntry(TreatmentRelation aTreatmentRelation, TreatmentMedicinegiven[] medicinegivens, PatientInformation[] patientInformations)
         {
             var voterId = "";
+            var serviceCenterCode = "Ha";
             foreach (PatientInformation patient in patientInformations)
             {
                 var patientInfo = db.PatientInformations.FirstOrDefault(p => p.VoterId == patient.VoterId);
@@ -200,15 +201,15 @@ namespace Clinika.Controllers
             }
             db.SaveChanges();
             aTreatmentRelation.DateOfObservation = Convert.ToDateTime(aTreatmentRelation.DateOfObservation);
-            aTreatmentRelation.ServiceCenterCode = "ha";
+            aTreatmentRelation.ServiceCenterCode = "da";
             aTreatmentRelation.VoterId = voterId;
             db.TreatmentRelations.Add(aTreatmentRelation);
             db.SaveChanges();
-            var diseaseId = 0;
+            int diseaseId = 0;
             foreach (TreatmentMedicinegiven medicinegiven in medicinegivens)
             {
                 TreatmentMedicinegiven aMedicinegiven = new TreatmentMedicinegiven();
-                diseaseId = aMedicinegiven.DiseasesId;
+                diseaseId = medicinegiven.DiseasesId;
                 aMedicinegiven.DoseId = medicinegiven.DoseId;
                 aMedicinegiven.MealId = medicinegiven.MealId;
                 aMedicinegiven.DiseasesId = medicinegiven.DiseasesId;
@@ -216,20 +217,27 @@ namespace Clinika.Controllers
                 aMedicinegiven.Note = medicinegiven.Note;
                 aMedicinegiven.QuantityGiven = medicinegiven.QuantityGiven;
                 aMedicinegiven.VoterId = voterId;
+                aMedicinegiven.SevcieCenterCode = serviceCenterCode;
                 db.TreatmentMedicinegivens.Add(aMedicinegiven);
                 db.SaveChanges();
             }
             PatientCount aPatientCount = new PatientCount();
-            var patientChk = db.PatientList.FirstOrDefault(p => p.VoterId == voterId && p.DiseasesId == p.DiseasesId);
+            var patientChk = db.PatientList.FirstOrDefault(p => p.VoterId == voterId && p.DiseasesId == diseaseId);
             if (patientChk == null)
             {
-                aPatientCount.DiseasesId = diseaseId;
-                aPatientCount.VoterId = voterId;
-                aPatientCount.DateTime = aTreatmentRelation.DateOfObservation;
-                db.PatientList.Add(aPatientCount);
-                db.SaveChanges();
+                var ServcieCenter = db.ServiceCenters.FirstOrDefault(p => p.Code == aTreatmentRelation.ServiceCenterCode);
+                if (ServcieCenter != null)
+                {
+                    aPatientCount.DistrictId = ServcieCenter.DistrictId;
+                    aPatientCount.DiseasesId = diseaseId;
+                    aPatientCount.VoterId = voterId;
+                    aPatientCount.DateTime = aTreatmentRelation.DateOfObservation;
+                    db.PatientList.Add(aPatientCount);
+                    db.SaveChanges();
+                }
+                
             }
-
+         
             return Json(true, JsonRequestBehavior.AllowGet);
         }
     }

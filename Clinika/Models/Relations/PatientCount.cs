@@ -11,5 +11,6 @@ namespace Clinika.Models.Relations
         public string VoterId { set; get; }
         public DateTime DateTime { set; get; }
         public int DiseasesId { set; get; }
+        public int DistrictId { set; get; }
     }
 }

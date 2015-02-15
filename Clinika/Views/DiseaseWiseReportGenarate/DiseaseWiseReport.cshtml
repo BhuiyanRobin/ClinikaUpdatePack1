@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "DiseaseWiseReport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DiseaseWiseReport</h2>
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <div>
+            <label for="disease">Select Disease</label>
+            <select id="disease">
+                <option>Select Disease</option>
+            </select>
+            <input type="button" id="showAllDistrictResult" value="Show All" />
+        </div>
+        <div class="form-inline">
+            <label for="fromDate">Date Between</label>
+            <input type="text" id="fromDate" />
+            <label for="todate">To</label>
+            <input type="text" id="todate" />
+        </div>
+        <div>
+            <label for="sort">Sort By</label>
+            <select id="sort">
+                <option>Sort By</option>
+                <option>Patient More</option>
+                <option>Patient Less</option>
+            </select>
+            <input type="button" id="show" value="Show" />
+        </div>
+        <div>
+            <table class="table table-bordered" id="reportRow">
+                <tr>
+                    <td>District Name</td>
+                    <td>Total Patient</td>
+                    <td>(%) Over Population</td>
+                </tr>
+            </table>
+            <table class="table table-bordered" id="report"></table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: '@Url.Action("AllDisease", "DiseaseWiseReportGenarate")',
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $('#disease').append($('<option/>', {
+                            value: value.DiseasesId,
+                            text: value.Name
+                        }));
+                    });
+                },
+            });
+
+            $("#show").click(function () {
+
+                var fromDate = new Date();
+                var toDate = new Date();
+                fromDate = $("#fromDate").val();
+                toDate = $("#todate").val();
+                var diseasesId = $("#disease option:selected").val();
+                alert(fromDate);
+                $.ajax({
+                    type: "POst",
+                    url: '@Url.Action("GetDiseaseStatistic", "DiseaseWiseReportGenarate")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify({ fromDate: fromDate, toDate: toDate, diseaseId: diseasesId }),
+                    dataType: "json",
+                    success: function (data) {
+                        $.each(data, function (index, value) {
+                            $('#report').append("<tr><td> " + value.DistrictName + "</td><td>" + value.TotalPatient + "</td><td>" + value.PercentOverPopulation + "</td></tr>");
+                        });;
+                    },
+                });
+            });
+            var allResult = new Array();
+            $("#showAllDistrictResult").click(function () {
+                var diseasesId = $("#disease option:selected").val();
+                alert(diseasesId);
+                $.ajax({
+                    type: "GET",
+                    url: '@Url.Action("StatisticResult", "DiseaseWiseReportGenarate")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify({ diseasesId: diseasesId }),
+                    dataType: "json",
+                    success: function (data) {
+                        $.each(data, function (index, value) {
+                            var result = { DistrictName: value.DistrictName, TotalPatient: value.TotalPatient, PercentOverPopulation: value.PercentOverPopulation };
+                            allResult.push(result);
+                            $('#report').append("<tr><td> " + value.DistrictName + "</td><td>" + value.TotalPatient + "</td><td>" + value.PercentOverPopulation + "</td></tr>");
+                        });
+                    },
+                });
+            });
+
+            @*$("#showAllDistrictResult").click(function () {
+
+                var diseasesId = $("#disease option:selected").val();
+                alert(diseasesId);
+                $.ajax({
+                    type: "GET",
+                    url: '@Url.Action("GetDiseaseStatisticAll", "DiseaseWiseReportGenarate")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify(diseasesId),
+                    dataType: "json",
+                    success: function (data) {
+                        $.each(data, function (index, value) {
+                            var result = { DistrictName: value.DistrictName, TotalPatient: value.TotalPatient, PercentOverPopulation: value.PercentOverPopulation };
+                            allResult.push(result);
+                            $('#report').append("<tr><td> " + value.DistrictName + "</td><td>" + value.TotalPatient + "</td><td>" + value.PercentOverPopulation + "</td></tr>");
+                        });
+                    },
+                });
+            });*@
+
+            //$('#sort').change(function () {
+            //    $('#report').remove();
+            //    var value = $("#sort option:selected").text();
+            //    if (value == "Patient More") {
+
+            //    }
+            //});
+
+        });
+
+    </script>
+}
